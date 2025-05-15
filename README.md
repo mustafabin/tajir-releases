@@ -28,4 +28,4 @@ nssm start TajirEdgeServer
 
 
 nssm set TajirEdgeServer AppStdout C:\Users\POS\Downloads\logs\service.log
-nssm set TajirEdgeServer AppStderr C:\Users\POS\Downloads\logs\service.log
+nssm set TajirEdgeServer AppStderr C:\Users\POS\Downloads\logs\service-error.log
