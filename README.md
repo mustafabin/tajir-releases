@@ -24,3 +24,8 @@ nssm install TajirEdgeServer "C:\Users\POS\Downloads\tajir-edge-server.exe"
 
 
 nssm start TajirEdgeServer
+
+
+
+nssm set TajirEdgeServer AppStdout C:\Users\POS\Downloads\logs\service.log
+nssm set TajirEdgeServer AppStderr C:\Users\POS\Downloads\logs\service.log
