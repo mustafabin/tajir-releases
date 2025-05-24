@@ -1,7 +1,9 @@
 # tajir-releases
 # LOGOS
 https://tajir-software.s3.us-east-1.amazonaws.com/logo.jpeg
+
 https://tajir-software.s3.us-east-1.amazonaws.com/logo.png
+
 https://tajir-software.s3.us-east-1.amazonaws.com/clear_logo.png
 
 
