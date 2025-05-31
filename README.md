@@ -1,4 +1,7 @@
 # tajir-releases
+
+%USERPROFILE%\AppData\Roaming\tajir-electron
+
 # LOGOS
 https://tajir-software.s3.us-east-1.amazonaws.com/logo.jpeg
 
