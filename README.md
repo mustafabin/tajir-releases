@@ -30,12 +30,12 @@ Copy-Item `
 nssm version
 
 
-nssm install TajirEdgeServer "C:\Users\POS\Downloads\tajir-edge-server.exe"
+nssm install Tajir "C:\Users\POS\Downloads\tajir-edge-server.exe"
 
 
-nssm start TajirEdgeServer
+nssm start Tajir
 
 
 
-nssm set TajirEdgeServer AppStdout C:\Users\POS\Downloads\logs\service.log
-nssm set TajirEdgeServer AppStderr C:\Users\POS\Downloads\logs\service-error.log
+nssm set Tajir AppStdout C:\Users\POS\Downloads\logs\service.log
+nssm set Tajir AppStderr C:\Users\POS\Downloads\logs\service-error.log
