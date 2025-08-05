@@ -1,4 +1,5 @@
 # tajir-releases
+https://github.com/mustafabin/tajir-releases/releases/download/1.3.0
 
 %USERPROFILE%\AppData\Roaming\tajir-electron
 
