@@ -1,5 +1,5 @@
 # tajir-releases
-https://github.com/mustafabin/tajir-releases/releases/download/1.3.0
+https://github.com/mustafabin/tajir-releases/releases/download/1.3.0/postgresql-16.8-2-windows-x64.exe
 
 %USERPROFILE%\AppData\Roaming\tajir-electron
 
