@@ -16,9 +16,9 @@ netsh advfirewall firewall add rule name="PostgreSQL" dir=in action=allow protoc
 echo == Creating Database and User ==
 
 :: Create an SQL script for setting up the database and user
-echo ALTER USER postgres WITH PASSWORD 'vitapay'; > setup_database.sql
+echo ALTER USER postgres WITH PASSWORD '123456'; > setup_database.sql
 echo CREATE DATABASE vitapaydb; >> setup_database.sql
-echo CREATE USER admin WITH ENCRYPTED PASSWORD 'vitapay' SUPERUSER; >> setup_database.sql
+echo CREATE USER admin WITH ENCRYPTED PASSWORD '123456' SUPERUSER; >> setup_database.sql
 echo GRANT ALL PRIVILEGES ON DATABASE vitapaydb TO admin; >> setup_database.sql
 
 :: Run the SQL script using psql
@@ -36,3 +36,4 @@ del setup_database.sql
 
 echo == PostgreSQL Setup Complete ==
 pause
+
