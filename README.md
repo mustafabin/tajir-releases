@@ -40,3 +40,7 @@ nssm start Tajir
 
 nssm set Tajir AppStdout C:\Users\POS\Downloads\logs\service.log
 nssm set Tajir AppStderr C:\Users\POS\Downloads\logs\service-error.log
+
+
+# ANDROID APK
+https://vitapayservice.s3.us-east-1.amazonaws.com/t-app-release.apk
